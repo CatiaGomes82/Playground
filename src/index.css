@@ -20,10 +20,13 @@ code {
 .ReactModal__Overlay--after-open { opacity: 1; }
 .ReactModal__Overlay--before-close { opacity: 0; }
 
-.close-btn { padding: 10px; background: #00315c; border: none; border-radius: 50%; position: absolute; right: 15px; top: 20px; }
-.close-icon { width: 15px; display:block;  fill: #ffffff; }
-.form-container { padding: 20px 15px; border-bottom: 1px solid #eeeeee; }
-h2 { color: #17355F; margin: 20px 0 30px }
+.close-btn {  padding: 10px; background: #00315c; border: none; border-radius: 50%;/* position: absolute; right: 15px; top: 20px;*/ } 
+.close-icon { width: 15px; display: block;  fill: #ffffff; }
+.form-container { display: flex; justify-content: space-between; flex-wrap: wrap; padding: 20px 15px; border-bottom: 1px solid #eeeeee; }
+.form-container img { order:1; }
+.btn-wrap { order: 2; }
+.form-container form { order:4; }
+h2 { color: #17355F; margin: 20px 0 30px; order:3; width: 100%; }
 a { color: #C54D61; font-size: 1.4rem; margin-top: 5px;}
 .form-field { display: flex; flex-direction: column; margin-bottom: 30px; }
 label { color: #636362; font-size: 1.2rem; margin-bottom: 10px; }
