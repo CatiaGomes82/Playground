@@ -13,7 +13,7 @@ const customStyles = {
     bottom: '0',
     borderRadius: '15px 15px 0 0',
     padding: 0,
-    maxHeight: 'calc(100vh - 10px)'
+    maxHeight: 'calc(100vh - 40px)'
   }
 };
 
